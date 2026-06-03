@@ -32,7 +32,7 @@
 
 // Decoder task settings
 #define rtl_433_Decoder_Priority 2
-#define rtl_433_Decoder_Core     1
+#define rtl_433_Decoder_Core     tskNO_AFFINITY
 
 #include <cstring>
 #include <vector>
